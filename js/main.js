@@ -1,23 +1,21 @@
 /* eslint-disable */
 $(document).ready(() => {
-  function duplicateNavbar(target, source) {
-    var clone = $(source).clone();
-    clone.removeClass('navbar-nav ml-auto');
-    clone.addClass('nav flex-column');
 
-    $(target).html(clone);
-  }
+  var clone = $('.navbar-nav').clone();
+  clone.removeClass('navbar-nav ml-auto');
+  clone.addClass('nav flex-column');
 
-  duplicateNavbar('.aside', '.navbar-nav');
+  $('.sidebar').html(clone);
+  $('.nav.flex-column').removeClass('d-none');
 
-  $('.aside-toggle').click(() => {
-    $('.aside').addClass('aside-active');
-    $('.aside-overlay').addClass('aside-overlay-active');
+  $('.sidebar-toggle').click(() => {
+    $('.sidebar').addClass('sidebar-active');
+    $('.sidebar-overlay').addClass('sidebar-overlay-active');
   });
 
-  $('.aside-overlay').click(() => {
-    $('.aside').removeClass('aside-active');
-    $('.aside-overlay').removeClass('aside-overlay-active');
+  $('.sidebar-overlay').click(() => {
+    $('.sidebar').removeClass('sidebar-active');
+    $('.sidebar-overlay').removeClass('sidebar-overlay-active');
   });
 
   if ($(window).width() <= 768) {
