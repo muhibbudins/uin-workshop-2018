@@ -1,12 +1,21 @@
+/**
+ * Style for section service
+ */
 .service {
   padding: 60px 0 120px 0;
   position: relative;
 
+  /**
+   * Call mixin arrow and place it with :after
+   */
   &:after {
     @include arrow();
     left: 12%;
     bottom: 5%;
   }
+  /**
+   * Remove arrow when it's ipad and mobile
+   */
   @media (max-width: 768px) {
     &:after {
       display: none;

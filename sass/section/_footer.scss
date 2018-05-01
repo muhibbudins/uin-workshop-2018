@@ -1,7 +1,13 @@
+/**
+ * Style for section footer
+ */
 .footer {
   padding: 60px 0;
   color: $secondary;
 
+  /**
+   * Add style for list
+   */
   dl > li {
     margin-bottom: 8px;
 
@@ -15,9 +21,15 @@
       }
     }
   }
+  /**
+   * Create style for divider
+   */
   .divider {
     border-right: 1px solid $grey;
 
+    /**
+     * Change border position and add gap when it's ipad and mobile
+     */
     @media (max-width: 768px) {
       border: 0;
       border-bottom: 1px solid $light-grey;

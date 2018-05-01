@@ -1,18 +1,24 @@
 @import
+
+  // Helper, Mixins, Variable and Global Overriding
   './helper/variables',
   './helper/mixins',
   './helper/fonts',
   './helper/content',
+
+  // Reusable component styling
   './components/navbar',
   './components/sidebar',
+  './components/card',
   './components/button',
   './components/form',
-  './components/card',
+
+  // Section styling
   './section/hero',
+  './section/about',
   './section/service',
   './section/voucher',
   './section/pricing',
-  './section/footer',
-  './section/copyright',
   './section/contact',
-  './section/about';
+  './section/footer',
+  './section/copyright';

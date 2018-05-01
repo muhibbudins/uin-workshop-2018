@@ -1,3 +1,6 @@
+/**
+ * Override default Bootstrap card
+ */
 .card {
   border: 1px solid transparent;
   border-radius: 12px;
@@ -37,6 +40,9 @@
     font-size: 14px;
   }
 
+  /**
+   * Create custom card from Bootstrap card
+   */
   &-plan {
     border: 1px solid $light-grey;
 
@@ -75,6 +81,10 @@
       }
     }
   }
+
+  /**
+   * Add border size when it's mobile
+   */
   @media (max-width: 768px) {
     border: 1px solid $light-grey;
   }

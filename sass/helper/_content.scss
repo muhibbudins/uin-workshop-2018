@@ -1,7 +1,14 @@
+/**
+ * Prevent overlapping content
+ */
 html,
 body {
   overflow-x: hidden;
 }
+
+/**
+ * Set background image on first section
+ */
 body {
   width: 100%;
   min-height: 100vh;

@@ -50,6 +50,10 @@ $fontSize: 12 14 16 18 32 36 46 60;
     height: 5px;
     background-color: $blue;
   }
+
+  /**
+   * Define kind of title
+   */
   &-white {
     color: $white;
 
@@ -73,6 +77,9 @@ $fontSize: 12 14 16 18 32 36 46 60;
     }
   }
 
+  /**
+   * Change font size on mobile version
+   */
   @media (max-width: 640px) {
     &-medium {
       font-size: 32px;

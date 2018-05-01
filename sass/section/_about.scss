@@ -1,3 +1,6 @@
+/**
+ * Style for section about
+ */
 .about {
   width: 100%;
   min-height: 600px;
@@ -8,6 +11,9 @@
   align-items: center;
   justify-content: start;
 
+  /**
+   * Create ornament image inside section
+   */
   &:before {
     content: '';
     position: absolute;
@@ -20,10 +26,15 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
+
+  /**
+   * Call mixin arrow and place it with :after
+   */
   &:after {
     @include arrow();
     right: 12%;
   }
+
   &-inner {
     margin-left: 700px;
     width: 400px;
@@ -34,6 +45,9 @@
     margin-bottom: 40px;
   }
 
+  /**
+   * Change content and ornament image size on small laptop
+   */
   @media (max-width: 1024px) {
     &:before {
       width: 500px;
@@ -43,6 +57,10 @@
       width: 400px;
     }
   }
+
+  /**
+   * Change content and ornament image size on ipad
+   */
   @media (max-width: 768px) {
     &:before {
       width: auto;
@@ -54,6 +72,10 @@
       width: 80%;
     }
   }
+ 
+  /**
+   * Change content size on phone
+   */
   @media (max-width: 480px) {
     &-inner {
       margin-left: 20px;

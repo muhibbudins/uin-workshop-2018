@@ -1,3 +1,6 @@
+/**
+ * Style for section hero
+ */
 .hero {
   width: 100%;
   height: 100vh;
@@ -16,10 +19,18 @@
     font-size: 16px;
     margin-bottom: 60px;
   }
+
+  /**
+   * Call mixin arrow and place it with :after
+   */
   &:before {
     @include arrow();
     left: 12%;
   }
+  
+  /**
+   * Change content size on ipad
+   */
   @media (max-width: 768px) {
     height: 70vh;
 
@@ -35,6 +46,10 @@
       left: auto;
     }
   }
+  
+  /**
+   * Change content size on phone
+   */
   @media (max-width: 480px) {
     height: 80vh;
 

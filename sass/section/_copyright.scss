@@ -1,8 +1,14 @@
+/**
+ * Style for section copyright
+ */
 .copyright {
   background-color: $light-grey;
   padding: 20px 0;
   color: transparentize($black, 0.6);
 
+  /**
+   * Add style for icon social media
+   */
   .social-icon {
     font-size: 22px;
     margin: 10px;
