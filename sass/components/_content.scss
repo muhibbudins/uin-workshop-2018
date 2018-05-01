@@ -1,12 +1,16 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  background-image: url('../../img/hero-background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
 
-  h1 {
-    font-weight: 500;
-    color: #CACACA;
+  @media (max-width: 768px) {
+    background-position: calc(100% + 300px) 0;
+  }
+  @media (max-width: 480px) {
+    background-position: calc(100% + 500px) -100px;
+    background-size: cover;
   }
 }
