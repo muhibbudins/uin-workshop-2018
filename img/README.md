@@ -1,1 +1,0 @@
-Directory for demo assets, use this folder to place your assets image, icon or favicon.
