@@ -36,4 +36,43 @@
   &-text {
     font-size: 14px;
   }
+
+  &-plan {
+    border: 1px solid $light-grey;
+
+    .card-text {
+      min-height: 180px;
+    }
+    .card-body {
+      padding: 40px;
+    }
+    .btn {
+      text-align: center;
+      background-color: transparent;
+      color: $blue;
+      border: 1px solid $blue;
+      margin: 0 auto;
+      display: block;
+      max-width: 240px;
+
+      &:hover {
+        background-color: $blue;
+        color: $white;
+      }
+    }
+    &_active,
+    &_active:hover {
+      border-top: 5px solid $blue;
+
+      .btn {
+        color: $white;
+        background-color: $orange;
+        border: 1px solid $orange;
+  
+        &:hover {
+          background-color: darken($orange, 5%);
+        }
+      }
+    }
+  }
 }

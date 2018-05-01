@@ -7,6 +7,9 @@
   text-align: left;
   position: relative;
 
+  &-compact {
+    min-width: 220px;
+  }
   &-primary {
     background-color: $blue;
     border: 0;

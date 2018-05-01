@@ -39,6 +39,7 @@ $fontSize: 12 14 16 18 32 36 46 60;
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
   position: relative;
+  text-transform: uppercase;
 
   &:before {
     content: '';
