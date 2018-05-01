@@ -1,1 +1,0 @@
-Directory to save the JavaScript file, any file on this folder will be compiled to dist/js/ folder.

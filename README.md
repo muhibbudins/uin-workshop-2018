@@ -1,2 +1,2 @@
-# theme-skeleton
-Theme skeleton are code base for all Lovable Design theme and ui kit
+# uin-workshop-2018
+Demo repository for my workshop at UIN Syarif Hidayatullah Jakarta
