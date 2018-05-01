@@ -2,15 +2,17 @@ body {
   width: 100%;
   min-height: 100vh;
   background-image: url('../../img/hero-background.png');
-  background-size: contain;
+  background-size: auto 90%;
   background-repeat: no-repeat;
   background-position: top right;
+  color: $black;
 
   @media (max-width: 768px) {
+    background-size: 100%;
     background-position: calc(100% + 300px) 0;
   }
   @media (max-width: 480px) {
-    background-position: calc(100% + 500px) -100px;
     background-size: cover;
+    background-position: calc(100% + 400px) -50px;
   }
 }
