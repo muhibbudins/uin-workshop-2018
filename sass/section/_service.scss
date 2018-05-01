@@ -1,8 +1,10 @@
 .service {
-  padding: 60px 0;
+  padding: 60px 0 120px 0;
+  position: relative;
 
   &:after {
     @include arrow();
-    right: 12%;
+    left: 12%;
+    bottom: 5%;
   }
 }
