@@ -1,8 +1,11 @@
 @import
-  './helper/fonts',
   './helper/variables',
-  
-  './components/content',
+  './helper/mixins',
+  './helper/fonts',
+  './helper/content',
   './components/navbar',
   './components/button',
-  './components/hero';
+  './components/card',
+  './section/hero',
+  './section/service',
+  './section/about';

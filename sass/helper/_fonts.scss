@@ -38,7 +38,24 @@ $fontSize: 12 14 16 18 32 36 46 60;
 .title {
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
+  position: relative;
 
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 5px;
+    background-color: $blue;
+  }
+  &-white {
+    color: $white;
+
+    &:before {
+      background-color: $white;
+    }
+  }
   &-small {
     font-size: 18px;
   }
@@ -47,6 +64,11 @@ $fontSize: 12 14 16 18 32 36 46 60;
   }
   &-huge {
     font-size: 60px;
+
+    &:before {
+      top: -10px;
+      width: 120px;
+    }
   }
 
   @media (max-width: 640px) {

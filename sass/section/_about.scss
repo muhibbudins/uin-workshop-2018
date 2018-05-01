@@ -1,0 +1,36 @@
+.about {
+  width: 100%;
+  min-height: 600px;
+  background-color: $blue;
+  color: $white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 600px;
+    background-image: url('../../img/about-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  &:after {
+    @include arrow();
+    right: 12%;
+  }
+  &-inner {
+    margin-left: 700px;
+    width: 400px;
+  }
+  &-description {
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}

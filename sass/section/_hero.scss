@@ -17,14 +17,7 @@
     margin-bottom: 60px;
   }
   &:before {
-    content: '';
-    width: 20px;
-    height: 36px;
-    background-image: url('../../img/arrow.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    bottom: 5%;
+    @include arrow();
     left: 12%;
   }
   @media (max-width: 768px) {

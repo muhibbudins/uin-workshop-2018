@@ -21,6 +21,7 @@
       font-size: 14px;
       color: $white;
       border: 0;
+      min-width: auto;
 
       &:hover {
         background-color: darken($orange, 5%);
