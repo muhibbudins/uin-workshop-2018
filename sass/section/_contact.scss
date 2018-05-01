@@ -1,0 +1,24 @@
+.contact {
+  width: 100%;
+  min-height: 300px;
+  color: $white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 60px 0;
+  background-image: url('../../img/contact-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    background-color: transparentize($blue, 0.2);
+  }
+}

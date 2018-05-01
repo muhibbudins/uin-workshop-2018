@@ -1,0 +1,16 @@
+.copyright {
+  background-color: $light-grey;
+  padding: 20px 0;
+  color: transparentize($black, 0.6);
+
+  .social-icon {
+    font-size: 22px;
+    margin: 10px;
+    text-decoration: none;
+    color: transparentize($black, 0.6);
+
+    &:hover {
+      color: transparentize($black, 0.4);
+    }
+  }
+}

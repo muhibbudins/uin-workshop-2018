@@ -1,0 +1,21 @@
+.form-group {
+  margin-bottom: 24px;
+}
+.form-control {
+  width: 100%;
+  background-color: transparent;
+  border-color: $white;
+  padding: 8px 30px;
+  color: $white;
+
+  &::placeholder {
+    color: $white;
+  }
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    background-color: transparent;
+    color: $white;
+  }
+}

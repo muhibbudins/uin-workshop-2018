@@ -1,0 +1,18 @@
+.footer {
+  padding: 60px 0;
+  color: $secondary;
+
+  dl > li {
+    margin-bottom: 8px;
+
+    a {  
+      color: $secondary;
+      
+      &.list-title {
+        @extend .text-quicksand-medium;
+        color: $black;
+        font-size: 18px;
+      }
+    }
+  }
+}
