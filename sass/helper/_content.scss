@@ -1,3 +1,7 @@
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   width: 100%;
   min-height: 100vh;
@@ -12,7 +16,7 @@ body {
     background-position: calc(100% + 300px) 0;
   }
   @media (max-width: 480px) {
-    background-size: cover;
-    background-position: calc(100% + 400px) -50px;
+    background-size: 600px auto;
+    background-position: calc(100% + 300px) 0;
   }
 }

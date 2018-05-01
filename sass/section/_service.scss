@@ -7,4 +7,9 @@
     left: 12%;
     bottom: 5%;
   }
+  @media (max-width: 768px) {
+    &:after {
+      display: none;
+    }
+  }
 }

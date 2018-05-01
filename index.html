@@ -17,6 +17,9 @@
   <!-- Import Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500|Roboto+Slab:700" rel="stylesheet">
 
+  <!-- Swiper 4.1.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+
   <!-- Import ION Icons -->
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </head>
@@ -80,12 +83,12 @@
 
   <!-- Service -->
   <div class="service">
-    <div class="container">
+    <div class="container service-slider">
       <div class="title title-medium mb-5">
         Our Services
       </div>
-      <div class="row">
-        <div class="col-4">
+      <div class="row swiper-wrapper">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card">
             <div class="card-body">
               <div class="card-icon">
@@ -96,7 +99,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card">
             <div class="card-body">
               <div class="card-icon">
@@ -107,29 +110,29 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card">
             <div class="card-body">
               <div class="card-icon">
                 <img src="img/icon/clock.svg" alt="24 / 7 Open hours">
               </div>
-              <div class="card-title">24 / 7 Open hours</div>
+              <div class="card-title">24 <span class="text-size-12">/ 7 Open hours</span></div>
               <div class="card-text">Recusandae dolor aut doloremque consequatur sequi fuga reiciendis rem enim animi iure error quo, ratione sunt vero. Fugiat qui maxime necessitatibus cupiditate.</div>
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card">
             <div class="card-body">
               <div class="card-icon">
                 <img src="img/icon/printer.svg" alt="Free paper / month">
               </div>
-              <div class="card-title">Free paper / month</div>
+              <div class="card-title">Free paper <span class="text-size-12">/ month</span></div>
               <div class="card-text">Recusandae dolor aut doloremque consequatur sequi fuga reiciendis rem enim animi iure error quo, ratione sunt vero. Fugiat qui maxime necessitatibus cupiditate.</div>
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card">
             <div class="card-body">
               <div class="card-icon">
@@ -140,13 +143,13 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card">
             <div class="card-body">
               <div class="card-icon">
                 <img src="img/icon/credit-card.svg" alt="$15 / day">
               </div>
-              <div class="card-title">$15 / day</div>
+              <div class="card-title">$15 <span class="text-size-12">/ day</span></div>
               <div class="card-text">Recusandae dolor aut doloremque consequatur sequi fuga reiciendis rem enim animi iure error quo, ratione sunt vero. Fugiat qui maxime necessitatibus cupiditate.</div>
             </div>
           </div>
@@ -159,29 +162,29 @@
   <div class="voucher">
     <div class="container">
       <div class="row">
-        <div class="col-1"></div>
-        <div class="col-6 mr-auto">
+        <div class="d-none d-lg-block col-lg-1"></div>
+        <div class="col-md-8 col-lg-6 mr-auto">
           <div class="title title-white title-medium">
-            GET FREE ACCESS
+            Get Free Access
           </div>
           <p>Tenetur eveniet, nemo nisi esse officia quidem tempore consectetur, hic odit ipsam recusandae rem at non! Consequuntur distinctio pariatur cupiditate dolore velit.</p>
         </div>
-        <div class="col-3 d-flex align-items-center">
+        <div class="col-md-4 col-lg-3 d-flex align-items-center">
           <a class="btn btn-md btn-outline-primary btn-compact btn-arrow" href="#">Redeem Code</a>
         </div>
-        <div class="col-1"></div>
+        <div class="d-none d-lg-block col-lg-1"></div>
       </div>
     </div>
   </div>
 
   <!-- Pricing -->
   <div class="pricing">
-    <div class="container">
+    <div class="container pricing-slider">
       <div class="title title-medium mb-4">
-        Our Pricings
+        Pricing Plan
       </div>
-      <div class="row">
-        <div class="col-4">
+      <div class="row swiper-wrapper">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card card-plan">
             <div class="card-body">
               <div class="card-title">MEETING ROOM</div>
@@ -200,7 +203,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card card-plan card-plan_active">
             <div class="card-body">
               <div class="card-title">NOMAD DESK</div>
@@ -217,7 +220,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4 swiper-slide">
           <div class="card card-plan">
             <div class="card-body">
               <div class="card-title">MEETUP PLACE</div>
@@ -245,14 +248,14 @@
   <div class="contact">
     <div class="container">
       <div class="row">
-        <div class="col-1"></div>
-        <div class="col-4 mr-auto">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 mr-auto">
           <div class="title title-white title-medium">
-            GET FREE ACCESS
+            Book Your Place
           </div>
           <p>Maecenas viverra facilisis eros ut accumsan. Fusce molestie efficitur ante, et ornare diam accumsan eu. Curabitur auctor venenatis velit at rutrum. Aliquam fermentum ullamcorper tellus eget lacinia. Aliquam porta id neque sed ullamcorper. Suspendisse sit amet purus nisi. Sed eget ligula maximus, mollis turpis fringilla, mattis tellus. Nullam sed feugiat ipsum.</p>
         </div>
-        <div class="col-4 d-flex align-items-center">
+        <div class="col-md-4 d-md-flex align-items-center">
           <form action="">
             <div class="form-group">
               <input type="text" name="" id="" class="form-control" placeholder="Full Name">
@@ -269,7 +272,7 @@
             <button type="submit" class="btn btn-md btn-outline-primary btn-compact btn-arrow">Send Message</button>
           </form>
         </div>
-        <div class="col-1"></div>
+        <div class="col-md-1"></div>
       </div>
     </div>
   </div>
@@ -278,28 +281,30 @@
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-3">
+        <div class="col-6 col-md-4 col-lg-2">
           <dl class="list-unstyled">
-            <li><a class="list-title">Duis vel augue at leo</a></li>
-            <li><a href="">Mauris auctor lacus</a></li>
-            <li><a href="">Fusce ultrices tellus</a></li>
-            <li><a href="">Maecenas sed urna</a></li>
+            <li><a class="list-title">About Us</a></li>
+            <li><a href="">About Colláb</a></li>
+            <li><a href="">Locations</a></li>
+            <li><a href="">Aperiam Quae</a></li>
           </dl>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-4 col-lg-2">
           <dl class="list-unstyled">
-            <li><a class="list-title">Duis vel augue at leo</a></li>
-            <li><a href="">Mauris auctor lacus</a></li>
-            <li><a href="">Fusce ultrices tellus</a></li>
-            <li><a href="">Maecenas sed urna</a></li>
+            <li><a class="list-title">Services</a></li>
+            <li><a href="">Consequuntur Valip</a></li>
+            <li><a href="">Architecto Culpa</a></li>
+            <li><a href="">Impedit Architecto</a></li>
+            <li><a href="">Repellat Repellendus</a></li>
           </dl>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-4 col-lg-2">
           <dl class="list-unstyled">
-            <li><a class="list-title">Duis vel augue at leo</a></li>
-            <li><a href="">Mauris auctor lacus</a></li>
-            <li><a href="">Fusce ultrices tellus</a></li>
-            <li><a href="">Maecenas sed urna</a></li>
+            <li><a class="list-title">Pricing Plan</a></li>
+            <li><a href="">Meeting Room</a></li>
+            <li><a href="">Nomad Desk</a></li>
+            <li><a href="">Meetup Place</a></li>
+            <li><a href="">Private Office</a></li>
           </dl>
         </div>
       </div>
@@ -310,10 +315,10 @@
   <div class="copyright">
     <div class="container">
       <div class="row">
-        <div class="col-2 mr-auto">
+        <div class="col-6 col-md-4 col-lg-2 text-left mr-auto">
           <div class="mt-2">Copyright by <b>Colláb</b></div>
         </div>
-        <div class="col-2 ml-auto">
+        <div class="col-6 col-md-4 col-lg-2 text-right ml-auto">
           <a href="" class="social-icon">
             <i class="ion-social-facebook"></i>
           </a>
@@ -330,9 +335,18 @@
 
   <!-- Import vendor script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  
+  <!-- Import Popper-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <!-- Import Bootstrap 4 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+  <!-- Import Animate On Scroll -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+
+  <!-- Swiper 4.1.0 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
 
   <!-- Import custom script -->
   <script src="./dist/js/theme-skeleton.min.js"></script>

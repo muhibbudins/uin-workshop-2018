@@ -33,4 +33,31 @@
     margin-top: 10px;
     margin-bottom: 40px;
   }
+
+  @media (max-width: 1024px) {
+    &:before {
+      width: 500px;
+    }
+    &-inner {
+      margin-left: 550px;
+      width: 400px;
+    }
+  }
+  @media (max-width: 768px) {
+    &:before {
+      width: auto;
+      right: 0;
+    }
+    &-inner {
+      margin-left: 50px;
+      z-index: 100;
+      width: 80%;
+    }
+  }
+  @media (max-width: 480px) {
+    &-inner {
+      margin-left: 20px;
+      width: 90%;
+    }
+  }
 }
