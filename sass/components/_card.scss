@@ -1,0 +1,39 @@
+.card {
+  border: 1px solid transparent;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: box-shadow .3s ease-in-out;
+
+  &:hover {
+    border: 1px solid $light-grey;
+    box-shadow: 0 8px 16px 0 transparentize(#0B2934, .85);
+
+    .card-body {
+      color: $black;
+    }
+    .card-icon img {
+      filter: invert(.5) sepia(1) saturate(35) hue-rotate(170deg);
+    }
+  }
+  &-body {
+    padding: 60px 40px;
+    color: $secondary;
+    transition: all .3s ease-in-out;
+  }
+  &-icon img {
+    width: auto;
+    max-width: 36px;
+    height: 38px;
+    margin-bottom: 20px;
+    filter: invert(.4) sepia(1) saturate(1) hue-rotate(160deg);
+  }
+  &-title {
+    @extend .text-roboto-slab;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  &-text {
+    font-size: 14px;
+  }
+}
