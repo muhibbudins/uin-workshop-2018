@@ -5,11 +5,11 @@
   width: 100%;
   background-color: transparent;
   border-color: $white;
-  padding: 8px 30px;
+  padding: 8px 20px;
   color: $white;
 
   &::placeholder {
-    color: $white;
+    color: transparentize($white, .4);
   }
   &:hover,
   &:focus,
